@@ -13,6 +13,12 @@
 		EAE82679266BC8EC00BAB366 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAE82678266BC8EC00BAB366 /* Preview Assets.xcassets */; };
 		EAE82684266BC8ED00BAB366 /* RoughTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE82683266BC8ED00BAB366 /* RoughTests.swift */; };
 		EAE8268F266BC8ED00BAB366 /* RoughUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE8268E266BC8ED00BAB366 /* RoughUITests.swift */; };
+		EAE8269D266BCB2D00BAB366 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE8269C266BCB2D00BAB366 /* User.swift */; };
+		EAE8269F266BCBA200BAB366 /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE8269E266BCBA200BAB366 /* RegistrationViewModel.swift */; };
+		EAE826A1266CBBA900BAB366 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE826A0266CBBA900BAB366 /* DataModel.swift */; };
+		EAEBED87269884690026EEA1 /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEBED86269884690026EEA1 /* NetworkModel.swift */; };
+		EAEBED89269884F90026EEA1 /* NetworkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEBED88269884F90026EEA1 /* NetworkViewModel.swift */; };
+		EAEBED8B2698874D0026EEA1 /* NetworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEBED8A2698874D0026EEA1 /* NetworkView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +51,12 @@
 		EAE8268A266BC8ED00BAB366 /* RoughUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoughUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAE8268E266BC8ED00BAB366 /* RoughUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoughUITests.swift; sourceTree = "<group>"; };
 		EAE82690266BC8ED00BAB366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAE8269C266BCB2D00BAB366 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		EAE8269E266BCBA200BAB366 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
+		EAE826A0266CBBA900BAB366 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		EAEBED86269884690026EEA1 /* NetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
+		EAEBED88269884F90026EEA1 /* NetworkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkViewModel.swift; sourceTree = "<group>"; };
+		EAEBED8A2698874D0026EEA1 /* NetworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +107,15 @@
 		EAE82670266BC8E600BAB366 /* Rough */ = {
 			isa = PBXGroup;
 			children = (
+				EAEBED852698839A0026EEA1 /* Others */,
 				EAE82671266BC8E600BAB366 /* RoughApp.swift */,
 				EAE82673266BC8E600BAB366 /* ContentView.swift */,
 				EAE82675266BC8EC00BAB366 /* Assets.xcassets */,
 				EAE8267A266BC8EC00BAB366 /* Info.plist */,
 				EAE82677266BC8EC00BAB366 /* Preview Content */,
+				EAE8269C266BCB2D00BAB366 /* User.swift */,
+				EAE8269E266BCBA200BAB366 /* RegistrationViewModel.swift */,
+				EAE826A0266CBBA900BAB366 /* DataModel.swift */,
 			);
 			path = Rough;
 			sourceTree = "<group>";
@@ -128,6 +144,16 @@
 				EAE82690266BC8ED00BAB366 /* Info.plist */,
 			);
 			path = RoughUITests;
+			sourceTree = "<group>";
+		};
+		EAEBED852698839A0026EEA1 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				EAEBED86269884690026EEA1 /* NetworkModel.swift */,
+				EAEBED88269884F90026EEA1 /* NetworkViewModel.swift */,
+				EAEBED8A2698874D0026EEA1 /* NetworkView.swift */,
+			);
+			path = Others;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +285,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAEBED87269884690026EEA1 /* NetworkModel.swift in Sources */,
+				EAEBED8B2698874D0026EEA1 /* NetworkView.swift in Sources */,
+				EAE826A1266CBBA900BAB366 /* DataModel.swift in Sources */,
 				EAE82674266BC8E600BAB366 /* ContentView.swift in Sources */,
+				EAE8269F266BCBA200BAB366 /* RegistrationViewModel.swift in Sources */,
 				EAE82672266BC8E600BAB366 /* RoughApp.swift in Sources */,
+				EAEBED89269884F90026EEA1 /* NetworkViewModel.swift in Sources */,
+				EAE8269D266BCB2D00BAB366 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
